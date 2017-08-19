@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Awazz</title>
+</head>
+
+<body>
+    <form name="Form1">
+        <textarea type="display" name="ascii" id="english" onKeyUp="javascript:convert();" style="display : none";></textarea>
+        <textarea name="unicode" ></textarea>
+       <marquee> <h1> Welcome To Voice To Text Translation</h1></marquee>
+       
+         
+         
+
+
+
+        <select class="btn" onChange="javascript:convert();" name="htmlEncode" style="display : none;">
+            <option value="false" selected="selected">Readable Unicode </option>
+            <option value="true">HTML Encoded Unicode</option>
+        </select>
+    </form>
+    <script src="lib/extra.js"></script>
+    <script src="lib/unicode.js"></script>
+    <script src="lib/voice.js"></script>
+    <script src="lib/main.js"></script>
+</body>
+
+</html>
